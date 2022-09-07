@@ -6,6 +6,14 @@ const usernames = [
     'memphisouttheback',
 ]
 
+const emails = [
+    'test@test.com',
+    'test2@test2.com',
+    'randomposter@dotnet.com',
+    'asdf@ghjkl.net',
+    'renownedpork@farmersonly.com',
+]
+
 const thoughts = [
     'this is a test!',
     "wow, I'm making a post!",
@@ -24,4 +32,6 @@ const getRandomUsername = () => `${getRandomArrItem(usernames)}`
 
 const getRandomThought = () => `${getRandomArrItem(thoughts)}`
 
-module.exports = { getRandomUsername, getRandomThought }
+const getRandomEmail = () => `${getRandomArrItem(emails)}`
+
+module.exports = { getRandomUsername, getRandomThought, getRandomEmail }
