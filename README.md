@@ -1,8 +1,8 @@
 # MongoDB Social API
-  Repository link: https://github.com/Sercanbrack/MongoDB Social API
+  Repository link: https://github.com/Sercanbrack/mongodb-social
 
   ## Description
-  This is a social networking API build using MongoDB to handle data.
+  This is a social networking API built using MongoDB to handle data.
   ## Table of Contents
   * [Installation](#installation)
   * [Instructions](#instructions)
